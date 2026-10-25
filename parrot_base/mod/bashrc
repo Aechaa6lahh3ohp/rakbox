@@ -1,5 +1,5 @@
 # colors
-darkgrey="$(tput setaf 8)"
+darkgrey="$(tput setaf 244)"
 yellow="$(tput setaf 3)"
 white="$(tput setaf 7)"
 red="$(tput setaf 1)"
