@@ -14,7 +14,7 @@ RUN wget -q \
 
 RUN apt install -y nmap nasm ruby python3 python3-pip-whl npm \
     build-essential 7zip git sqlite3 openssh-client zsh nodejs \
-    clang jq cargo dnsutils ncat wget powershell
+    clang jq cargo dnsutils ncat wget powershell ripgrep vim
 
 RUN curl -fsSL https://opencode.ai/v2/install | bash && \
     echo "export PATH=/root/.opencode/bin:$PATH" >> /root/.bashrc

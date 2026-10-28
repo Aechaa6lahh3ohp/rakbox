@@ -11,7 +11,7 @@ RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 RUN pacman-mirrors -f3 && pacman -Syyu --noconfirm &&  pacman -S --noconfirm \
     base-devel nasm clang ruby lua nodejs npm python python-pip rustup jq bat \
     exa sqlite p7zip vim zsh bash go rust-analyzer gopls nmap netcat \
-    bind-tools openssh git
+    bind-tools openssh git ripgrep
 
 RUN curl -fsSL https://opencode.ai/v2/install | bash && \
     echo "export PATH=/root/.opencode/bin:$PATH" >> /root/.bashrc
